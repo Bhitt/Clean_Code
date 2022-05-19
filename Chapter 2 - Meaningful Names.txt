@@ -1,0 +1,41 @@
+Use Intention Revealing Names :
+	The name of a variable, function, or class should tell you:
+		Why it exists
+		What it does
+		How it is used
+	If a name requires a comment, then the name does not reveal its intent
+
+Avoid Disinformation :
+	For example: do not name a group of accounts 'accountList' unless it's actually a List.
+	Be wary of names that differ in small ways
+
+Make Meaningful Distinctions :
+	Avoid names like a1 and a2, use source and destination instead
+	Don't use 'variable' or 'string' in the name, this just adds noise
+
+Use Pronounceable Names :
+	Being able to pronounce the names makes them easier to discuss and comprehend
+
+Use Searchable Names :
+	Single-letter names or numeric constants are difficult to locate with finders
+
+Avoid Encodings :
+	This simply adds another layer of deciphering code
+
+Member Prefixes :
+	Editing environments usually highlight these for you
+	People eventually ignore prefixes anyway
+
+Class Names :
+	Should be nouns or noun phrases such as Customer, WikiPage, Account, and AddressParser.
+	Avoid generic nouns like Data and Manager
+	Do not use verbs as class names
+
+Method Names :
+	Should be verbs or verb phrases like postPayment
+	When constructors are overloaded, use static factory methods with names that describe the 
+	arguments. For example :
+		Complex fulcrumPoint = Complex.FromRealNumber(23.0)
+
+Pick One Word per Concept :
+	For example : fetch, get, and retrieve all mean the same thing
