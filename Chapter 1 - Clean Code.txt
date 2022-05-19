@@ -1,0 +1,22 @@
+Costs of Bad Code:
+	Productivity falls drastically as more messes are made in code.
+	Redesigns take a long time and may end up with similar issues.
+
+Primal Conundrum:
+	Previous messes slow down developers.
+	More messes are made to reach deadlines.
+	Deadlines aren't actually hit when making messes most of the time.
+
+Attitude:
+	Communication to managers and marketers is very important for succesful code. That involves 
+	speaking up in regards to schedules and feasibility. "What if you were a doctor and had a 
+	patient who demanded that you stop all the silly handwashing in preparation for surgery because 
+	it was taking too much time?"
+
+We Are Authors:
+	We are constantly reading old code to write new code.
+	Make your code easy to read so that future code is easier to write.
+
+The Boy Scout Rule:
+	Check in code cleaner than when you checked it out.
+
