@@ -1,0 +1,20 @@
+Small! :
+	Write small functions
+
+Blocks and Indenting :
+	Blocks within if statements should be one line long. These can call a descriptive function.
+	Indent levels of a function should only be one or two (not too nested)
+
+Do One Thing :
+	Functions should do one thing
+	If you can extract another function from it with a name that is not merely a restatement of its
+	implementation, then you probably should break it up.
+
+Switch Statements : 
+	See description on page 38. This is a useful clean way to implement switch statements.
+
+Function Arguments : 
+	The fewer arguments, the better.
+	Arguments can be wrapped in objects to simplify
+
+
