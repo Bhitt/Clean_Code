@@ -1,0 +1,44 @@
+Comments Do Not Make Up for Bad Code : 
+	Instead of spending time to write comments explaining the mess, spend time cleaning the mess.
+
+Explain Yourself In Code:
+	Many times, code can be a good means for explanation. In many cases, it's simply a matter of
+	creating a function that says the same thing as the comment would.
+	Ex:
+		Would you rather see :
+			// Check to see if the employee is eligible for full benefits
+			if((employee.flags & HOURLY_FLAG)) &&
+				(employee.age > 65)
+
+		Or :
+			if(employee.isEligibleForFullBenefits())
+
+Informative Comments :
+	Using a comment to give an example for a regex can be very helpful.
+
+Explanation of Intent :
+	A solution may be strange, but an explanation of intent through comments would at least make sure
+	you know what the code is trying to do.
+
+Warning of Consequences :
+	Sometimes it is useful to warn other programmers about certain consequences of running or changing
+	code.
+
+Amplification : 
+	A comment can hilight the importance of something subtle.
+	Ex:
+		String listItemContent = match.group(3).trim();
+		// the trim is real important. It removes the ...
+
+Mumbling :
+	Adding in a comment just for the sake of having a comment is not useful.
+
+Redundant Comments :
+	Restating what the code already expresses is also not useful.
+
+Misleading Comments :
+	Be careful that your comments are accurate.
+
+Closing Bracket Comments : 
+	Writing comments next to closing brackets for long complex code can help clarify, but it would be
+	better to simplify the code first.
