@@ -17,4 +17,15 @@ Function Arguments :
 	The fewer arguments, the better.
 	Arguments can be wrapped in objects to simplify
 
+Command Query Separation :
+	Functions should either do something or answer something, but not both.
 
+Prefer Exceptions to Returning Error Codes :
+	Error codes lead to deeply nested structures and create a problem that the caller must deal with
+	immediately.
+
+Error Handling is One Thing :
+	A function that handles errors should do nothing else.
+
+Don't Repeat Yourself :
+	Extract duplicated code.
