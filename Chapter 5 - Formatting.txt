@@ -1,0 +1,6 @@
+Verical Openness Between Concepts:
+	Separate "complete thoughts" with a blank line. This provides a visual cue to a new and separate
+	concept.
+
+Dependent Functions:
+	If one function calls another, they should be vertically close (caller above the callee)
